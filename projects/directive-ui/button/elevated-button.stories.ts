@@ -25,10 +25,10 @@ const meta: Meta<ElevatedButtonDirective & SurfaceDirective & BaseButtonDirectiv
     color: {
       description: 'The color class to use for the button',
       table: {
-        type: { summary: 'primary | secondary' },
+        type: { summary: 'primary | secondary | danger | success | cancel' },
         defaultValue: { summary: 'primary' }
       },
-      options: ['primary', 'secondary'],
+      options: ['primary', 'secondary', 'danger', 'success', 'cancel'],
       control: {
         type: 'select',
       },
@@ -37,10 +37,15 @@ const meta: Meta<ElevatedButtonDirective & SurfaceDirective & BaseButtonDirectiv
   // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args
   args: {
     level: 1,
+    color: 'primary',
   },
   render: (args) => ({
     props: args,
-    template: `<button dui-elevated-button [level]="level" [color]="color">Test</button>`,
+    template: `
+      <button dui-elevated-button 
+        [level]="level" 
+        [color]="color"
+      >Test</button>`,
   })
 };
 
