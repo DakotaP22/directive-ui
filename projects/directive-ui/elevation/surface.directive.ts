@@ -3,7 +3,6 @@ import { Directive, effect, HostBinding, input } from "@angular/core";
 @Directive({
     standalone: true,
     selector: '[duiSurface]',
-    inputs: ['level'],
 })
 export class SurfaceDirective {
 
