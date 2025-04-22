@@ -14,7 +14,7 @@
                 "name": "Large",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/button.stories.ts",
+                "file": "projects/directive-ui/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -24,7 +24,7 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/header.stories.ts",
+                "file": "projects/directive-ui/stories/header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -34,7 +34,7 @@
                 "name": "LoggedIn",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/page.stories.ts",
+                "file": "projects/directive-ui/stories/page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -44,7 +44,7 @@
                 "name": "LoggedOut",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/header.stories.ts",
+                "file": "projects/directive-ui/stories/header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -54,7 +54,7 @@
                 "name": "LoggedOut",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/page.stories.ts",
+                "file": "projects/directive-ui/stories/page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -64,7 +64,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/button.stories.ts",
+                "file": "projects/directive-ui/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<ButtonComponent>",
@@ -74,7 +74,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/header.stories.ts",
+                "file": "projects/directive-ui/stories/header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<HeaderComponent>",
@@ -84,7 +84,7 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/page.stories.ts",
+                "file": "projects/directive-ui/stories/page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<PageComponent>",
@@ -104,7 +104,7 @@
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/button.stories.ts",
+                "file": "projects/directive-ui/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -114,7 +114,7 @@
                 "name": "Secondary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/button.stories.ts",
+                "file": "projects/directive-ui/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -124,7 +124,7 @@
                 "name": "Small",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/directive-ui/src/stories/button.stories.ts",
+                "file": "projects/directive-ui/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -138,7 +138,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<ButtonComponent>",
-                "file": "projects/directive-ui/src/stories/button.stories.ts",
+                "file": "projects/directive-ui/stories/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -149,7 +149,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<HeaderComponent>",
-                "file": "projects/directive-ui/src/stories/header.stories.ts",
+                "file": "projects/directive-ui/stories/header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -160,7 +160,7 @@
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
                 "rawtype": "StoryObj<PageComponent>",
-                "file": "projects/directive-ui/src/stories/page.stories.ts",
+                "file": "projects/directive-ui/stories/page.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -169,12 +169,12 @@
         ],
         "enumerations": [],
         "groupedVariables": {
-            "projects/directive-ui/src/stories/button.stories.ts": [
+            "projects/directive-ui/stories/button.stories.ts": [
                 {
                     "name": "Large",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/button.stories.ts",
+                    "file": "projects/directive-ui/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -184,7 +184,7 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/button.stories.ts",
+                    "file": "projects/directive-ui/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ButtonComponent>",
@@ -194,7 +194,7 @@
                     "name": "Primary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/button.stories.ts",
+                    "file": "projects/directive-ui/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -204,7 +204,7 @@
                     "name": "Secondary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/button.stories.ts",
+                    "file": "projects/directive-ui/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -214,19 +214,19 @@
                     "name": "Small",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/button.stories.ts",
+                    "file": "projects/directive-ui/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\n  args: {\n    size: 'small',\n    label: 'Button',\n  },\n}"
                 }
             ],
-            "projects/directive-ui/src/stories/header.stories.ts": [
+            "projects/directive-ui/stories/header.stories.ts": [
                 {
                     "name": "LoggedIn",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/header.stories.ts",
+                    "file": "projects/directive-ui/stories/header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -236,7 +236,7 @@
                     "name": "LoggedOut",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/header.stories.ts",
+                    "file": "projects/directive-ui/stories/header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -246,19 +246,19 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/header.stories.ts",
+                    "file": "projects/directive-ui/stories/header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<HeaderComponent>",
                     "defaultValue": "{\n  title: 'Example/Header',\n  component: HeaderComponent,\n  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs\n  tags: ['autodocs'],\n  parameters: {\n    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout\n    layout: 'fullscreen',\n  },\n  args: {\n    onLogin: fn(),\n    onLogout: fn(),\n    onCreateAccount: fn(),\n  },\n}"
                 }
             ],
-            "projects/directive-ui/src/stories/page.stories.ts": [
+            "projects/directive-ui/stories/page.stories.ts": [
                 {
                     "name": "LoggedIn",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/page.stories.ts",
+                    "file": "projects/directive-ui/stories/page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -268,7 +268,7 @@
                     "name": "LoggedOut",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/page.stories.ts",
+                    "file": "projects/directive-ui/stories/page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -278,7 +278,7 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/directive-ui/src/stories/page.stories.ts",
+                    "file": "projects/directive-ui/stories/page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<PageComponent>",
@@ -301,39 +301,39 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "projects/directive-ui/src/stories/button.stories.ts": [
+            "projects/directive-ui/stories/button.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<ButtonComponent>",
-                    "file": "projects/directive-ui/src/stories/button.stories.ts",
+                    "file": "projects/directive-ui/stories/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/directive-ui/src/stories/header.stories.ts": [
+            "projects/directive-ui/stories/header.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<HeaderComponent>",
-                    "file": "projects/directive-ui/src/stories/header.stories.ts",
+                    "file": "projects/directive-ui/stories/header.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
                     "kind": 183
                 }
             ],
-            "projects/directive-ui/src/stories/page.stories.ts": [
+            "projects/directive-ui/stories/page.stories.ts": [
                 {
                     "name": "Story",
                     "ctype": "miscellaneous",
                     "subtype": "typealias",
                     "rawtype": "StoryObj<PageComponent>",
-                    "file": "projects/directive-ui/src/stories/page.stories.ts",
+                    "file": "projects/directive-ui/stories/page.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
@@ -358,7 +358,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/button.stories.ts",
+                "filePath": "projects/directive-ui/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -368,7 +368,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/button.stories.ts",
+                "filePath": "projects/directive-ui/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -378,7 +378,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/button.stories.ts",
+                "filePath": "projects/directive-ui/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -388,7 +388,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/button.stories.ts",
+                "filePath": "projects/directive-ui/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -398,7 +398,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/button.stories.ts",
+                "filePath": "projects/directive-ui/stories/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -408,7 +408,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/button.stories.ts",
+                "filePath": "projects/directive-ui/stories/button.stories.ts",
                 "type": "type alias",
                 "linktype": "miscellaneous",
                 "linksubtype": "typealias",
@@ -418,7 +418,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/header.stories.ts",
+                "filePath": "projects/directive-ui/stories/header.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -428,7 +428,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/header.stories.ts",
+                "filePath": "projects/directive-ui/stories/header.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -438,7 +438,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/header.stories.ts",
+                "filePath": "projects/directive-ui/stories/header.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -448,7 +448,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/header.stories.ts",
+                "filePath": "projects/directive-ui/stories/header.stories.ts",
                 "type": "type alias",
                 "linktype": "miscellaneous",
                 "linksubtype": "typealias",
@@ -458,7 +458,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/page.stories.ts",
+                "filePath": "projects/directive-ui/stories/page.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -468,7 +468,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/page.stories.ts",
+                "filePath": "projects/directive-ui/stories/page.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -478,7 +478,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/page.stories.ts",
+                "filePath": "projects/directive-ui/stories/page.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -488,7 +488,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/directive-ui/src/stories/page.stories.ts",
+                "filePath": "projects/directive-ui/stories/page.stories.ts",
                 "type": "type alias",
                 "linktype": "miscellaneous",
                 "linksubtype": "typealias",
