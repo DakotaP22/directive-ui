@@ -33,6 +33,7 @@
     "@storybook/addon-essentials": "^8.6.12",
     "@storybook/addon-interactions": "^8.6.12",
     "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/addon-styling-webpack": "^1.0.1",
     "@storybook/angular": "^8.6.12",
     "@storybook/blocks": "^8.6.12",
     "@storybook/test": "^8.6.12",

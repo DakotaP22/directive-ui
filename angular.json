@@ -48,7 +48,7 @@
             ],
             "port": 6006,
             "styles": [
-              "projects/directive-ui/themes/default-theme.css"
+              "projects/directive-ui/themes/default-theme.scss"
             ]
           }
         },
@@ -66,7 +66,7 @@
             ],
             "outputDir": "storybook-static",
             "styles": [
-              "projects/directive-ui/themes/default-theme.css"
+              "projects/directive-ui/themes/default-theme.scss"
             ]
           }
         }
