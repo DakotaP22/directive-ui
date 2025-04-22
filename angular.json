@@ -46,7 +46,10 @@
               "-d",
               "projects/directive-ui"
             ],
-            "port": 6006
+            "port": 6006,
+            "styles": [
+              "projects/directive-ui/themes/default-theme.css"
+            ]
           }
         },
         "build-storybook": {
@@ -61,7 +64,10 @@
               "-d",
               "projects/directive-ui"
             ],
-            "outputDir": "storybook-static"
+            "outputDir": "storybook-static",
+            "styles": [
+              "projects/directive-ui/themes/default-theme.css"
+            ]
           }
         }
       }
