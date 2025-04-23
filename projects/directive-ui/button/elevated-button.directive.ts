@@ -23,7 +23,5 @@ export class ElevatedButtonDirective {
         "padding-inline": "var(--dui-elevated-button-padding-inline, 1rem)",
         "padding-block": "var(--dui-elevated-button-padding-block, 0.5rem)",
         "border-radius": "var(--dui-elevated-button-border-radius, 0.35rem)",
-        "border-color": "var(--dui-elevated-button-border-color, black)",
-        "border-width": "var(--dui-elevated-button-border-width, 1px)",
     }
 }

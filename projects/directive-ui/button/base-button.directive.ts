@@ -11,7 +11,8 @@ export class BaseButtonDirective {
     @HostBinding('style.cursor') cursor = 'pointer';
     @HostBinding('style.background-color') bgColor = "var(--dui-button-bg-primary-default)";
     @HostBinding('style.color') fontColor = "var(--dui-button-text-primary-default)";
-    @HostBinding('style.outline') outline = 'none';
+    @HostBinding('style.border-color') borderColor = 'var(--dui-button-border-color-primary-default)';
+    @HostBinding('style.border-width') borderWidth = '0px';
 
     @HostListener('mouseenter') mouseEnter = () => this.onMouseEnter();
     @HostListener('mouseleave') mouseLeave = () => this.onMouseLeave();
@@ -25,32 +26,36 @@ export class BaseButtonDirective {
 
     color = input<ButtonColor>('primary');
     _ = effect(() => {
-        this.bgColor = `var(--dui-button-bg-${this.color()}-default)`;
-        this.fontColor = `var(--dui-button-text-${this.color()}-default)`;
+        this.setStylesForState(this.color(), 'default');
     })
 
-    onMouseEnter() {
-        this.bgColor = `var(--dui-button-bg-${this.color()}-hover)`;
+    private onMouseEnter() {
+        this.setStylesForState(this.color(), 'hover');
     }
 
-    onMouseLeave() {
-        this.bgColor = `var(--dui-button-bg-${this.color()}-default)`;
+    private onMouseLeave() {
+        this.setStylesForState(this.color(), 'default');
     }
 
-    onMouseDown() {
-        this.bgColor = `var(--dui-button-bg-${this.color()}-active)`;
+    private onMouseDown() {
+        this.setStylesForState(this.color(), 'active');
     }
 
-    onMouseUp() {
-        this.bgColor = `var(--dui-button-bg-${this.color()}-default)`;
+    private onMouseUp() {
+        this.setStylesForState(this.color(), 'hover');
     }
 
-    onFocus() {
-        this.bgColor = `var(--dui-button-bg-${this.color()}-focused)`;
+    private onFocus() {
+        this.setStylesForState(this.color(), 'focused');
     }
 
-    onBlur() {
-        this.bgColor = `var(--dui-button-bg-${this.color()}-default)`;
+    private onBlur() {
+       this.setStylesForState(this.color(), 'default');
     }
 
+    private setStylesForState(color: ButtonColor, state: 'default' | 'hover' | 'active' | 'focused') {
+        this.bgColor = `var(--dui-button-bg-${color}-${state})`;
+        this.fontColor = `var(--dui-button-text-${color}-${state})`;
+        this.borderColor = `var(--dui-button-border-color-${color}-${state})`;
+    }
 }
