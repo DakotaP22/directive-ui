@@ -296,3 +296,18 @@ $color-white: #fff;
         font-size: var(--dui-text-body-lg, 1.5rem);
     }
 }
+
+:root {
+    .dui-text-caption.dui-text-caption-xs {
+        font-size: var(--dui-text-caption-xs, 0.65rem);
+    }
+    .dui-text-caption.dui-text-caption-sm {
+        font-size: var(--dui-text-caption-sm, 0.7rem);
+    }
+    .dui-text-caption.dui-text-caption-md {
+        font-size: var(--dui-text-caption-md, .8rem);
+    }
+    .dui-text-caption.dui-text-caption-lg {
+        font-size: var(--dui-text-caption-lg, 1rem);
+    }
+}
