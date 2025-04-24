@@ -311,3 +311,21 @@ $color-white: #fff;
         font-size: var(--dui-text-caption-lg, 1rem);
     }
 }
+
+:root {
+    .dui-text-label.dui-text-label-xs {
+        font-size: var(--dui-text-label-xs, 0.75rem);
+    }
+
+    .dui-text-label.dui-text-label-sm {
+        font-size: var(--dui-text-label-sm, 0.875rem);
+    }
+
+    .dui-text-label.dui-text-label-md {
+        font-size: var(--dui-text-label-md, 1rem);
+    }
+
+    .dui-text-label.dui-text-label-lg {
+        font-size: var(--dui-text-label-lg, 1.125rem);
+    }
+}
