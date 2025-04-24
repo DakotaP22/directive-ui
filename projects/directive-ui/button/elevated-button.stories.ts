@@ -7,7 +7,7 @@ import { BaseButtonDirective } from './base-button.directive';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 const meta: Meta<ElevatedButtonDirective & SurfaceDirective & BaseButtonDirective> = {
-  title: 'Elevated Button',
+  title: 'Buttons / Elevated Button',
   component: ElevatedButtonDirective,
   tags: ['autodocs'],
   argTypes: {
