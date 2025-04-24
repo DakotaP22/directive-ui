@@ -93,137 +93,156 @@ $color-white: #fff;
 }
 
 .dui-outline-button.dui-outline-button-primary {
-    background-color: var(--dui-button-bg-primary-default, transparent);
-    color: var(--dui-button-text-primary-default, var(--color-primary-80));
-    border: 1px solid var(--dui-button-border-color-primary-default, var(--color-primary-80));
+    background-color: var(--dui-outline-button-bg-primary-default, transparent);
+    color: var(--dui-outline-button-text-primary-default, var(--color-primary-80));
+    border: 1px solid var(--dui-outline-button-border-color-primary-default, var(--color-primary-80));
 }
 
-.dui-outline-button.dui-outline-button-primary:hover,
-.dui-outlinw-button.dui-outline-button-primary:focus {
-    background-color: var(--dui-button-bg-primary-hover, transparent);
-    color: var(--dui-button-text-primary-hover, var(--color-primary-100));
-    border-color: var(--dui-button-border-color-primary-hover, var(--color-primary-100));
+.dui-outline-button.dui-outline-button-primary:hover {
+    background-color: var(--dui-outline-button-bg-primary-hover, transparent);
+    color: var(--dui-outline-button-text-primary-hover, var(--color-primary-100));
+    border-color: var(--dui-outline-button-border-color-primary-hover, var(--color-primary-100));
 }
 .dui-outline-button.dui-outline-button-primary:active {
-    background-color: var(--dui-button-bg-primary-focused, var(--color-primary-10));
-    color: var(--dui-button-text-primary-focused, var(--color-primary-100));
-    border-color: var(--dui-button-border-color-primary-focused, var(--color-primary-100));
+    background-color: var(--dui-outline-button-bg-primary-focused, var(--color-primary-10));
+    color: var(--dui-outline-button-text-primary-focused, var(--color-primary-100));
+    border-color: var(--dui-outline-button-border-color-primary-focused, var(--color-primary-100));
 }
 
 .dui-outline-button.dui-outline-button-secondary {
-    background-color: var(--dui-button-bg-secondary-default, transparent);
-    color: var(--dui-button-text-secondary-default, var(--color-secondary-80));
-    border: 1px solid var(--dui-button-border-color-secondary-default, var(--color-secondary-80));
+    background-color: var(--dui-outline-button-bg-secondary-default, transparent);
+    color: var(--dui-outline-button-text-secondary-default, var(--color-secondary-80));
+    border: 1px solid var(--dui-outline-button-border-color-secondary-default, var(--color-secondary-80));
 }
-.dui-outline-button.dui-outline-button-secondary:hover,
-.dui-outline-button.dui-outline-button-secondary:focus {
-    background-color: var(--dui-button-bg-secondary-hover, transparent);
-    color: var(--dui-button-text-secondary-hover, var(--color-secondary-100));
-    border-color: var(--dui-button-border-color-secondary-hover, var(--color-secondary-100));
+.dui-outline-button.dui-outline-button-secondary:hover {
+    background-color: var(--dui-outline-button-bg-secondary-hover, transparent);
+    color: var(--dui-outline-button-text-secondary-hover, var(--color-secondary-100));
+    border-color: var(--dui-outline-button-border-color-secondary-hover, var(--color-secondary-100));
 }
 .dui-outline-button.dui-outline-button-secondary:active {
-    background-color: var(--dui-button-bg-secondary-focused, var(--color-secondary-10));
-    color: var(--dui-button-text-secondary-focused, var(--color-secondary-100));
-    border-color: var(--dui-button-border-color-secondary-focused, var(--color-secondary-100));
+    background-color: var(--dui-outline-button-bg-secondary-focused, var(--color-secondary-10));
+    color: var(--dui-outline-button-text-secondary-focused, var(--color-secondary-100));
+    border-color: var(--dui-outline-button-border-color-secondary-focused, var(--color-secondary-100));
 }
 
 .dui-outline-button.dui-outline-button-danger {
-    background-color: var(--dui-button-bg-danger-default, transparent);
-    color: var(--dui-button-text-danger-default, var(--color-danger-80));
-    border: 1px solid var(--dui-button-border-color-danger-default, var(--color-danger-80));
+    background-color: var(--dui-outline-button-bg-danger-default, transparent);
+    color: var(--dui-outline-button-text-danger-default, var(--color-danger-80));
+    border: 1px solid var(--dui-outline-button-border-color-danger-default, var(--color-danger-80));
 }
-.dui-outline-button.dui-outline-button-danger:hover,
-.dui-outline-button.dui-outline-button-danger:focus {
-    background-color: var(--dui-button-bg-danger-hover, transparent);
-    color: var(--dui-button-text-danger-hover, var(--color-danger-100));
-    border-color: var(--dui-button-border-color-danger-hover, var(--color-danger-100));
+.dui-outline-button.dui-outline-button-danger:hover {
+    background-color: var(--dui-outline-button-bg-danger-hover, transparent);
+    color: var(--dui-outline-button-text-danger-hover, var(--color-danger-100));
+    border-color: var(--dui-outline-button-border-color-danger-hover, var(--color-danger-100));
 }
 .dui-outline-button.dui-outline-button-danger:active {
-    background-color: var(--dui-button-bg-danger-focused, var(--color-danger-10));
-    color: var(--dui-button-text-danger-focused, var(--color-danger-100));
-    border-color: var(--dui-button-border-color-danger-focused, var(--color-danger-100));
+    background-color: var(--dui-outline-button-bg-danger-focused, var(--color-danger-10));
+    color: var(--dui-outline-button-text-danger-focused, var(--color-danger-100));
+    border-color: var(--dui-outline-button-border-color-danger-focused, var(--color-danger-100));
 }
 
 .dui-outline-button.dui-outline-button-success {
-    background-color: var(--dui-button-bg-success-default, transparent);
-    color: var(--dui-button-text-success-default, var(--color-success-80));
-    border: 1px solid var(--dui-button-border-color-success-default, var(--color-success-80));
+    background-color: var(--dui-outline-button-bg-success-default, transparent);
+    color: var(--dui-outline-button-text-success-default, var(--color-success-80));
+    border: 1px solid var(--dui-outline-button-border-color-success-default, var(--color-success-80));
 }
-.dui-outline-button.dui-outline-button-success:hover,
-.dui-outline-button.dui-outline-button-success:focus {
-    background-color: var(--dui-button-bg-success-hover, transparent);
-    color: var(--dui-button-text-success-hover, var(--color-success-100));
-    border-color: var(--dui-button-border-color-success-hover, var(--color-success-100));
+.dui-outline-button.dui-outline-button-success:hover {
+    background-color: var(--dui-outline-button-bg-success-hover, transparent);
+    color: var(--dui-outline-button-text-success-hover, var(--color-success-100));
+    border-color: var(--dui-outline-button-border-color-success-hover, var(--color-success-100));
 }
 .dui-outline-button.dui-outline-button-success:active {
-    background-color: var(--dui-button-bg-success-focused, var(--color-success-10));
-    color: var(--dui-button-text-success-focused, var(--color-success-100));
-    border-color: var(--dui-button-border-color-success-focused, var(--color-success-100));
+    background-color: var(--dui-outline-button-bg-success-focused, var(--color-success-10));
+    color: var(--dui-outline-button-text-success-focused, var(--color-success-100));
+    border-color: var(--dui-outline-button-border-color-success-focused, var(--color-success-100));
 }
 
 .dui-outline-button.dui-outline-button-cancel {
-    background-color: var(--dui-button-bg-cancel-default, transparent);
-    color: var(--dui-button-text-cancel-default, var(--color-neutral-80));
-    border: 1px solid var(--dui-button-border-color-cancel-default, var(--color-neutral-80));
+    background-color: var(--dui-outline-button-bg-cancel-default, transparent);
+    color: var(--dui-outline-button-text-cancel-default, var(--color-neutral-80));
+    border: 1px solid var(--dui-outline-button-border-color-cancel-default, var(--color-neutral-80));
 }
-.dui-outline-button.dui-outline-button-cancel:hover,
-.dui-outline-button.dui-outline-button-cancel:focus {
-    background-color: var(--dui-button-bg-cancel-hover, transparent);
-    color: var(--dui-button-text-cancel-hover, var(--color-neutral-100));
-    border-color: var(--dui-button-border-color-cancel-hover, var(--color-neutral-100));
+.dui-outline-button.dui-outline-button-cancel:hover {
+    background-color: var(--dui-outline-button-bg-cancel-hover, transparent);
+    color: var(--dui-outline-button-text-cancel-hover, var(--color-neutral-100));
+    border-color: var(--dui-outline-button-border-color-cancel-hover, var(--color-neutral-100));
 }
 .dui-outline-button.dui-outline-button-cancel:active {
-    background-color: var(--dui-button-bg-cancel-focused, var(--color-neutral-10));
-    color: var(--dui-button-text-cancel-focused, var(--color-neutral-100));
-    border-color: var(--dui-button-border-color-cancel-focused, var(--color-neutral-100));
+    background-color: var(--dui-outline-button-bg-cancel-focused, var(--color-neutral-10));
+    color: var(--dui-outline-button-text-cancel-focused, var(--color-neutral-100));
+    border-color: var(--dui-outline-button-border-color-cancel-focused, var(--color-neutral-100));
 }
 
+.dui-elevated-button {
+    cursor: pointer;
+    font-size: var(--dui-elevated-button-font-size, 1rem);
+    padding-inline: var(--dui-elevated-button-padding-inline, 1rem);
+    padding-block: var(--dui-elevated-button-padding-block, 0.5rem);
+    border-radius: var(--dui-elevated-button-border-radius, 0.35rem);
+    border-width: 0;
+}
 
+.dui-elevated-button.dui-elevated-button-primary {
+    background-color: var(--dui-elevated-button-bg-primary-default, var(--color-primary-100));
+    color: var(--dui-elevated-button-text-primary-default, var(--color-white-100));
+}
+.dui-elevated-button.dui-elevated-button-primary:hover {
+    background-color: var(--dui-elevated-button-bg-primary-hover, var(--color-primary-80));
+    color: var(--dui-elevated-button-text-primary-hover, var(--color-white-100));
+}
+.dui-elevated-button.dui-elevated-button-primary:active {
+    background-color: var(--dui-elevated-button-bg-primary-focused, var(--color-primary-40));
+    color: var(--dui-elevated-button-text-primary-focused, var(--color-white-100));
+}
 
-.dui-button {
-    /* Primary */
-    --dui-button-bg-primary-default: var(--color-primary-100);
-    --dui-button-bg-primary-hover: var(--color-primary-80);
-    --dui-button-bg-primary-focused: var(--color-primary-40);
-    --dui-button-bg-primary-active: var(--color-primary-60);
-    --dui-button-text-primary-default: var(--color-white-100);
-    --dui-button-text-primary-hover: var(--color-white-100);
-    --dui-button-text-primary-focused: var(--color-white-100);
-    --dui-button-text-primary-active: var(--color-white-100);
-    /* Secondary */
-    --dui-button-bg-secondary-default: var(--color-secondary-100);
-    --dui-button-bg-secondary-hover: var(--color-secondary-80);
-    --dui-button-bg-secondary-focused: var(--color-secondary-40);
-    --dui-button-bg-secondary-active: var(--color-secondary-60);
-    --dui-button-text-secondary-default: var(--color-neutral-100);
-    --dui-button-text-secondary-hover: var(--color-neutral-100);
-    --dui-button-text-secondary-focused: var(--color-neutral-100);
-    --dui-button-text-secondary-active: var(--color-neutral-100);
-    /* Danger */
-    --dui-button-bg-danger-default: var(--color-danger-100);
-    --dui-button-bg-danger-hover: var(--color-danger-80);
-    --dui-button-bg-danger-focused: var(--color-danger-40);
-    --dui-button-bg-danger-active: var(--color-danger-60);
-    --dui-button-text-danger-default: var(--color-white-100);
-    --dui-button-text-danger-hover: var(--color-white-100);
-    --dui-button-text-danger-focused: var(--color-white-100);
-    --dui-button-text-danger-active: var(--color-white-100);
-    /* Success */
-    --dui-button-bg-success-default: var(--color-success-100);
-    --dui-button-bg-success-hover: var(--color-success-80);
-    --dui-button-bg-success-focused: var(--color-success-40);
-    --dui-button-bg-success-active: var(--color-success-60);
-    --dui-button-text-success-default: var(--color-neutral-100);
-    --dui-button-text-success-hover: var(--color-neutral-100);
-    --dui-button-text-success-focused: var(--color-neutral-100);
-    --dui-button-text-success-active: var(--color-neutral-100);
-    /* Cancel */
-    --dui-button-bg-cancel-default: var(--color-neutral-30);
-    --dui-button-bg-cancel-hover: var(--color-neutral-25);
-    --dui-button-bg-cancel-focused: var(--color-neutral-15);
-    --dui-button-bg-cancel-active: var(--color-neutral-10);
-    --dui-button-text-cancel-default: var(--color-neutral-100);
-    --dui-button-text-cancel-hover: var(--color-neutral-100);
-    --dui-button-text-cancel-focused: var(--color-neutral-100);
-    --dui-button-text-cancel-active: var(--color-neutral-100);
+.dui-elevated-button.dui-elevated-button-secondary {
+    background-color: var(--dui-elevated-button-bg-secondary-default, var(--color-secondary-100));
+    color: var(--dui-elevated-button-text-secondary-default, var(--color-neutral-100));
+}
+.dui-elevated-button.dui-elevated-button-secondary:hover {
+    background-color: var(--dui-elevated-button-bg-secondary-hover, var(--color-secondary-80));
+    color: var(--dui-elevated-button-text-secondary-hover, var(--color-neutral-100));
+}
+.dui-elevated-button.dui-elevated-button-secondary:active {
+    background-color: var(--dui-elevated-button-bg-secondary-focused, var(--color-secondary-40));
+    color: var(--dui-elevated-button-text-secondary-focused, var(--color-neutral-100));
+}
+
+.dui-elevated-button.dui-elevated-button-danger {
+    background-color: var(--dui-elevated-button-bg-danger-default, var(--color-danger-100));
+    color: var(--dui-elevated-button-text-danger-default, var(--color-white-100));
+}
+.dui-elevated-button.dui-elevated-button-danger:hover {
+    background-color: var(--dui-elevated-button-bg-danger-hover, var(--color-danger-80));
+    color: var(--dui-elevated-button-text-danger-hover, var(--color-white-100));
+}
+.dui-elevated-button.dui-elevated-button-danger:active {
+    background-color: var(--dui-elevated-button-bg-danger-focused, var(--color-danger-40));
+    color: var(--dui-elevated-button-text-danger-focused, var(--color-white-100));
+}
+
+.dui-elevated-button.dui-elevated-button-success {
+    background-color: var(--dui-elevated-button-bg-success-default, var(--color-success-100));
+    color: var(--dui-elevated-button-text-success-default, var(--color-neutral-100));
+}
+.dui-elevated-button.dui-elevated-button-success:hover {
+    background-color: var(--dui-elevated-button-bg-success-hover, var(--color-success-70));
+    color: var(--dui-elevated-button-text-success-hover, var(--color-neutral-100));
+}
+.dui-elevated-button.dui-elevated-button-success:active {
+    background-color: var(--dui-elevated-button-bg-success-focused, var(--color-success-40));
+    color: var(--dui-elevated-button-text-success-focused, var(--color-neutral-100));
+}
+
+.dui-elevated-button.dui-elevated-button-cancel {
+    background-color: var(--dui-elevated-button-bg-cancel-default, var(--color-neutral-50));
+    color: var(--dui-elevated-button-text-cancel-default, var(--color-neutral-100));
+}
+.dui-elevated-button.dui-elevated-button-cancel:hover {
+    background-color: var(--dui-elevated-button-bg-cancel-hover, var(--color-neutral-30));
+    color: var(--dui-elevated-button-text-cancel-hover, var(--color-neutral-100));
+}
+.dui-elevated-button.dui-elevated-button-cancel:active {
+    background-color: var(--dui-elevated-button-bg-cancel-focused, var(--color-neutral-20));
+    color: var(--dui-elevated-button-text-cancel-focused, var(--color-neutral-100));
 }

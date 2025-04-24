@@ -1,13 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { fn } from '@storybook/test';
-import { ElevatedButtonDirective } from './elevated-button.directive';
-import { SurfaceDirective } from '../elevation/surface.directive';
-import { BaseButtonDirective } from './base-button.directive';
 import { OutlineButtonDirective } from './outline-button.directive';
 
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
-const meta: Meta<OutlineButtonDirective& BaseButtonDirective> = {
+const meta: Meta<OutlineButtonDirective> = {
   title: 'Buttons / Outline Button',
   component: OutlineButtonDirective,
   tags: ['autodocs'],
@@ -38,7 +34,7 @@ const meta: Meta<OutlineButtonDirective& BaseButtonDirective> = {
 };
 
 export default meta;
-type Story = StoryObj<OutlineButtonDirective & BaseButtonDirective>;
+type Story = StoryObj<OutlineButtonDirective>;
 
 export const Primary: Story = {
  tags: ['!dev']
