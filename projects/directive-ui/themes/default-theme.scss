@@ -281,3 +281,18 @@ $color-white: #fff;
         font-size: var(--dui-text-title-lg, 5rem);
     }
 }
+
+:root {
+    .dui-text-body.dui-text-body-xs {
+        font-size: var(--dui-text-body-xs, 0.75rem);
+    }
+    .dui-text-body.dui-text-body-sm {
+        font-size: var(--dui-text-body-sm, 0.875rem);
+    }
+    .dui-text-body.dui-text-body-md {
+        font-size: var(--dui-text-body-md, 1rem);
+    }
+    .dui-text-body.dui-text-body-lg {
+        font-size: var(--dui-text-body-lg, 1.5rem);
+    }
+}
