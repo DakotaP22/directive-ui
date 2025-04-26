@@ -1,0 +1,5 @@
+// _functions.scss
+@function generate-shade($color, $percentage) {
+    // @return mix(white, $color, $percentage / 100);
+    @return rgba($color, $percentage / 10);
+}

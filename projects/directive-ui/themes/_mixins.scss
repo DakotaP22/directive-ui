@@ -1,0 +1,10 @@
+// _mixins.scss
+@use 'functions' as *;
+
+@mixin generate-color-variables($name, $color) {
+  --#{$name}: #{$color};
+
+  @for $i from 1 through 10  {
+    --#{$name}-#{$i * 10}: #{generate-shade($color, $i%100)};
+  }
+}
