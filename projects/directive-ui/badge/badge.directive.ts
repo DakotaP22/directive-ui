@@ -39,7 +39,7 @@ export class BadgeDirective {
             if (el.innerText.length > 2) {
                 this.classNames = `${this.classNames} dui-badge-long`;
             } else {
-                this.classNames = `${this.classNames} dui-badge-short`;
+                this.classNames = `${this.classNames} dui-badge-circle`;
             }
     
         })
