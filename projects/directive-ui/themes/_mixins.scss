@@ -1,5 +1,7 @@
 // _mixins.scss
 @use 'functions' as *;
+@use 'buttons' as *;
+@use 'text' as *;
 
 @mixin generate-theme($theme-config) {
   @include generate-theme-colors($theme-config);
