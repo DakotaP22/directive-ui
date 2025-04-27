@@ -1,21 +1,17 @@
-$color-primary: #118ab2;
-$color-secondary: #ffd166;
-$color-success: #06d6a0;
-$color-danger: #ef476f;
-$color-neutral: #073b4c;
-$color-white: #fff;
-
-// _theme.scss
 @use 'mixins' as *;
 
 :root {
-  @include generate-color-variables('color-primary', $color-primary);
-  @include generate-color-variables('color-secondary', $color-secondary);
-  @include generate-color-variables('color-success', $color-success);
-  @include generate-color-variables('color-danger', $color-danger);
-  @include generate-color-variables('color-neutral', $color-neutral);
-  @include generate-color-variables('color-white', $color-white);
-} 
+    @include generate-theme((
+        "colors": (
+            "primary": #118ab2,
+            "secondary": #ffd166,
+            "success": #06d6a0,
+            "danger": #ef476f,
+            "neutral": #073b4c,
+            "white": #fff,
+        )
+    ));
+}
 
 
 :root {
@@ -207,12 +203,15 @@ $color-white: #fff;
     .dui-text-title.dui-text-title-xs {
         font-size: var(--dui-text-title-xs, 2rem);
     }
+
     .dui-text-title.dui-text-title-sm {
         font-size: var(--dui-text-title-sm, 3rem);
     }
+
     .dui-text-title.dui-text-title-md {
         font-size: var(--dui-text-title-md, 4rem);
     }
+
     .dui-text-title.dui-text-title-lg {
         font-size: var(--dui-text-title-lg, 5rem);
     }
@@ -222,12 +221,15 @@ $color-white: #fff;
     .dui-text-body.dui-text-body-xs {
         font-size: var(--dui-text-body-xs, 0.75rem);
     }
+
     .dui-text-body.dui-text-body-sm {
         font-size: var(--dui-text-body-sm, 0.875rem);
     }
+
     .dui-text-body.dui-text-body-md {
         font-size: var(--dui-text-body-md, 1rem);
     }
+
     .dui-text-body.dui-text-body-lg {
         font-size: var(--dui-text-body-lg, 1.5rem);
     }
@@ -237,12 +239,15 @@ $color-white: #fff;
     .dui-text-caption.dui-text-caption-xs {
         font-size: var(--dui-text-caption-xs, 0.65rem);
     }
+
     .dui-text-caption.dui-text-caption-sm {
         font-size: var(--dui-text-caption-sm, 0.7rem);
     }
+
     .dui-text-caption.dui-text-caption-md {
         font-size: var(--dui-text-caption-md, .8rem);
     }
+
     .dui-text-caption.dui-text-caption-lg {
         font-size: var(--dui-text-caption-lg, 1rem);
     }

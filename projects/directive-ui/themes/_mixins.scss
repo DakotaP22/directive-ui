@@ -1,7 +1,20 @@
 // _mixins.scss
 @use 'functions' as *;
 
+@mixin generate-theme($theme-config) {
+  @include generate-theme-colors($theme-config);
+}
+
+@mixin generate-theme-colors($theme-config) {
+  $color-map: map-get($theme-config, 'colors');
+
+  @each $name, $color in $color-map {
+     @include generate-color-variables(#{'color-'+$name}, $color);
+  }
+}
+
 @mixin generate-color-variables($name, $color) {
+  @debug $name, $color;
   --#{$name}: #{$color};
 
   @for $i from 1 through 10  {
