@@ -1,33 +1,37 @@
 .dui-badge {
     position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    transform: translate(100%, -75%);
+    top: var(--dui-badge-top, 0);
+    right: var(--dui-badge-right, 0);
+    z-index: var(--dui-badge-z-index, 1);
+
+    $translateX: var(--dui-badge-translate-x, 100%);
+    $translateY: var(--dui-badge-translate-y, -75%);
+
+    transform: translate($translateX, $translateY);
 
     display: grid;
     place-content: center;
     white-space: nowrap;
 }
-
 .dui-badge-sm {
-    font-size: 0rem;
-    width: .5rem;
-    height: .5rem;
+    font-size: var(--dui-badge-sm-font-size, 0rem);
+    width: var(--dui-badge-sm-width, .5rem);
+    height: var(--dui-badge-sm-height, .5rem);
+    padding: var(--dui-badge-sm-padding, 0);
 }
 
 .dui-badge-md {
-    font-size: .75rem;
-    min-width: 1rem;
-    min-height: 1rem;
-    padding: .25rem;
+    font-size: var(--dui-badge-md-font-size, .75rem);
+    min-width: var(--dui-badge-md-min-width, 1rem);
+    min-height: var(--dui-badge-md-min-height, 1rem);
+    padding: var(--dui-badge-md-padding, .25rem);
 }
 
 .dui-badge-lg {
-    font-size: 1rem;
-    min-height: 1.5rem;
-    min-width: 1.5rem;
-    padding: .35rem .5rem;
+    font-size: var(--dui-badge-lg-font-size, 1rem);
+    min-height: var(--dui-badge-lg-min-height, 1.5rem);
+    min-width: var(--dui-badge-lg-min-width, 1.5rem);
+    padding: var(--dui-badge-lg-padding, .35rem .5rem);
 }
 
 .dui-badge-circle {
