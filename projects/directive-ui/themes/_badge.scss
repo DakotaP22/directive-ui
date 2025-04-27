@@ -1,0 +1,64 @@
+.dui-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    transform: translate(100%, -75%);
+
+    display: grid;
+    place-content: center;
+    white-space: nowrap;
+}
+
+.dui-badge-sm {
+    font-size: 0rem;
+    width: .5rem;
+    height: .5rem;
+}
+
+.dui-badge-md {
+    font-size: .75rem;
+    min-width: 1rem;
+    min-height: 1rem;
+    padding: .25rem;
+}
+
+.dui-badge-lg {
+    font-size: 1rem;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    padding: .35rem .5rem;
+}
+
+.dui-badge-circle {
+    border-radius: 100%;
+}
+
+.dui-badge-long {
+    border-radius: 24px;
+}
+
+.dui-badge-color-primary {
+    background-color: var(--dui-badge-bg-color, var(--color-primary-100));
+    color: var(--dui-badge-font-color, var(--color-white-100));
+}
+
+.dui-badge-color-secondary {
+    background-color: var(--dui-badge-bg-color, var(--color-secondary-100));
+    color: var(--dui-badge-font-color, var(--color-neutral-100));
+}
+
+.dui-badge-color-danger {
+    background-color: var(--dui-badge-bg-color, var(--color-danger-100));
+    color: var(--dui-badge-font-color, var(--color-white-100));
+}
+
+.dui-badge-color-success {
+    background-color: var(--dui-badge-bg-color, var(--color-success-100));
+    color: var(--dui-badge-font-color, var(--color-white-100));
+}
+
+.dui-badge-color-info {
+    background-color: var(--dui-badge-bg-color, var(--color-neutral-10));
+    color: var(--dui-badge-font-color, var(--color-neutral-100));
+}
