@@ -3,7 +3,6 @@ import { ButtonColor } from "./ButtonColor";
 
 @Directive({
     selector: 'button[dui-outline-button]',
-    standalone: true,
 })
 export class OutlineButtonDirective {
     @HostBinding('class.dui-outline-button') duiOutlineBtnClass = true;

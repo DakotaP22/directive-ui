@@ -4,7 +4,6 @@ import { ButtonColor } from "./ButtonColor";
 
 
 @Directive({
-    standalone: true,
     selector: "button[dui-elevated-button]",
     hostDirectives: [
         {
