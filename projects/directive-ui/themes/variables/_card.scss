@@ -1,0 +1,66 @@
+span.dui-card {
+    display: inline-flex;
+}
+
+div.dui-card {
+    display: flex;
+}
+
+.dui-card {
+    border-radius: var(--dui-card-border-radius, 1rem);
+    border-color: var(--dui-card-border-color, var(--color-neutral-20));
+    border-width: var(--dui-card-border-width, 1px);
+    border-style: solid;
+
+    flex-direction: column;
+    gap: var(--dui-card-content-gap, 1rem);
+    padding-block: var(--dui-card-padding-block, 1rem);
+    padding-inline: var(--dui-card-padding-inline, 1rem);
+}
+
+.dui-card-header {
+    display: grid;
+    grid-template-areas: 
+        "card-img card-title"
+        "card-img card-subtitle";
+
+    grid-template-rows: min-content min-content;
+    grid-template-columns: min-content 1fr;
+
+
+    .dui-card-title, .dui-card-subtitle {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dui-card-title {
+        grid-area: card-title;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    .dui-card-subtitle {
+        grid-area: card-subtitle;
+        font-size: 1rem;
+        margin-top: .25rem;
+    }
+    
+    .dui-card-avatar {
+        grid-area: card-img;
+
+        $avatar-size: var(--dui-card-avatar-size, 50px);
+        width: $avatar-size;
+        height: $avatar-size;
+
+        border-radius: var(--dui-card-avatar-border-radius, 100%);
+        margin-block: var(--dui-card-avatar-margin-block, auto);
+        margin-right: var(--dui-card-avatar-margin-right, 1rem);
+    }
+
+}
+
+.dui-card-actions {
+    display: flex;
+    gap: var(--dui-card-actions-gap, .5rem);
+}
+

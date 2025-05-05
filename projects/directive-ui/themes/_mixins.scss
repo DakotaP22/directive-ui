@@ -15,7 +15,6 @@
 }
 
 @mixin generate-color-variables($name, $color) {
-  @debug $name, $color;
   --#{$name}: #{$color};
 
   @for $i from 1 through 10  {
