@@ -7,8 +7,8 @@
 
 .dui-card-header {
     padding-inline: var(--dui-card-header-padding-inline, 1rem);
-    padding-top: var(--dui-card-padding-top, .5rem);
-    padding-bottom: var(--dui-card-padding-bottom, .5rem);
+    padding-top: var(--dui-card-header-padding-top, .5rem);
+    padding-bottom: var(--dui-card-header-padding-bottom, .5rem);
 
     display: grid;
     grid-template-areas: 
