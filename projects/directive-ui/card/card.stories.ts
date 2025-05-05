@@ -27,7 +27,7 @@ const meta: Meta<CardDirective> = {
           <div dui-card-header>
             <img dui-card-avatar alt="test" src="https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg"/>
             <h1 dui-card-title>Mittens the Cat</h1>
-            <p dui-card-subtitle>Brown Tabby <span style="color: red">(F)</span></p>
+            <p dui-card-subtitle>Orange Tabby <span style="color: red">(F)</span></p>
           </div>
 
           <div dui-card-body>
