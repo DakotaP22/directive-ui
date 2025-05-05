@@ -18,30 +18,36 @@
     grid-template-rows: min-content min-content;
     grid-template-columns: min-content 1fr;
 
+
+    .dui-card-title, .dui-card-subtitle {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .dui-card-title {
+        grid-area: card-title;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    .dui-card-subtitle {
+        grid-area: card-subtitle;
+        font-size: 1rem;
+        margin-top: .25rem;
+    }
+    
+    .dui-card-avatar {
+        grid-area: card-img;
+        width: 50px;
+        height: 50px;
+        border-radius: var(--dui-card-header-image-border-radius, 100%);
+        margin-block: var(--dui-card-header-image-margin-block, auto);
+        margin-right: var(--dui-card-header-image-margin-right, 1rem);
+    }
+
 }
 
-.dui-card-title, .dui-card-subtitle {
-    margin: 0;
-    padding: 0;
+.dui-card-body {
+    padding-inline: var(--dui-card-content-padding-inline, 1rem);
 }
 
-.dui-card-title {
-    grid-area: card-title;
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-.dui-card-subtitle {
-    grid-area: card-subtitle;
-    font-size: 1rem;
-    margin-top: .25rem;
-}
-
-.dui-card-avatar {
-    grid-area: card-img;
-    width: 50px;
-    height: 50px;
-    border-radius: var(--dui-card-header-image-border-radius, 100%);
-    margin-block: var(--dui-card-header-image-margin-block, auto);
-    margin-right: var(--dui-card-header-image-margin-right, 1rem);
-}

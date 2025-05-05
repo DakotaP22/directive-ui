@@ -4,9 +4,10 @@ import { CardDirective } from "./card.directive";
 import { CardTitleDirective } from "./header/card-title.directive";
 import { CardSubtitleDirective } from "./header/card-subtitle.directive";
 import { CardAvatarDirective } from "./header/card-avatar.directive";
+import { CardBodyDirective } from "./card-body.directive";
 
 @NgModule({
-    declarations: [CardDirective, CardHeaderDirective, CardTitleDirective, CardSubtitleDirective, CardAvatarDirective],
-    exports: [CardDirective, CardHeaderDirective, CardTitleDirective, CardSubtitleDirective, CardAvatarDirective]
+    declarations: [CardDirective, CardHeaderDirective, CardTitleDirective, CardSubtitleDirective, CardAvatarDirective, CardBodyDirective],
+    exports: [CardDirective, CardHeaderDirective, CardTitleDirective, CardSubtitleDirective, CardAvatarDirective, CardBodyDirective]
 })
 export class CardModule { };

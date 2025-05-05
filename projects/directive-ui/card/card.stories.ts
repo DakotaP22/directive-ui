@@ -28,6 +28,14 @@ const meta: Meta<CardDirective> = {
             <h1 dui-card-title>Mittens the Cat</h1>
             <p dui-card-subtitle>Brown Tabby <span style="color: red">(F)</span></p>
           </div>
+
+          <div dui-card-body>
+            <p>
+              Mittens is a brown tabby cat who loves to nap and chase laser pointers. 
+              She enjoys long naps in the sun and playing with her favorite toys.
+              She is very affectionate and loves to cuddle with her owner.
+            </p>
+          </div>
         </div>
       `,
     }) };
