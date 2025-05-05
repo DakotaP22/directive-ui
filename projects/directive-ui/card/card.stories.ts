@@ -3,6 +3,7 @@ import { CardHeaderDirective } from './header/card-header.directive';
 import { CardDirective } from './card.directive';
 import { CardModule } from './card.module';
 import { DuiTextModule } from '../text/text.module';
+import { DuiButtonModule } from '../button/button.module';
 
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
@@ -12,7 +13,7 @@ const meta: Meta<CardDirective> = {
     tags: ['autodocs'],
     decorators: [
         moduleMetadata({
-            imports: [CardModule]
+            imports: [CardModule, DuiButtonModule]
         })
     ],
     argTypes: {
@@ -35,6 +36,11 @@ const meta: Meta<CardDirective> = {
               She enjoys long naps in the sun and playing with her favorite toys.
               She is very affectionate and loves to cuddle with her owner.
             </p>
+          </div>
+
+          <div dui-card-actions>
+            <button dui-elevated-button color="primary">Adopt Mittens</button>
+            <button dui-outline-button color="success">Donate</button>
           </div>
         </div>
       `,
