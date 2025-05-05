@@ -1,15 +1,24 @@
+span.dui-card {
+    display: inline-flex;
+}
+
+div.dui-card {
+    display: flex;
+}
+
 .dui-card {
-    border-radius: var(--dui-card-border-radius, .5rem);
+    border-radius: var(--dui-card-border-radius, 1rem);
     border-color: var(--dui-card-border-color, var(--color-neutral-20));
     border-width: var(--dui-card-border-width, 1px);
     border-style: solid;
+
+    flex-direction: column;
+    gap: var(--dui-card-content-gap, 1rem);
+    padding-block: var(--dui-card-padding-block, 1rem);
+    padding-inline: var(--dui-card-padding-inline, 1rem);
 }
 
 .dui-card-header {
-    padding-inline: var(--dui-card-header-padding-inline, 1rem);
-    padding-top: var(--dui-card-header-padding-top, .5rem);
-    padding-bottom: var(--dui-card-header-padding-bottom, .5rem);
-
     display: grid;
     grid-template-areas: 
         "card-img card-title"
@@ -50,16 +59,7 @@
 
 }
 
-.dui-card-body {
-    padding-inline: var(--dui-card-content-padding-inline, 1rem);
-    padding-top: var(--dui-card-content-padding-top, .5rem);
-    padding-bottom: var(--dui-card-content-padding-bottom, .5rem);
-}
-
 .dui-card-actions {
-    padding-inline: var(--dui-card-actions-padding-inline, 1rem);
-    padding-top: var(--dui-card-actions-padding-top, .5rem);
-    padding-bottom: var(--dui-card-actions-padding-bottom, .5rem);
     display: flex;
     justify-content: flex-end;
     gap: var(--dui-card-actions-gap, .5rem);
