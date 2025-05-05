@@ -1,0 +1,40 @@
+import { moduleMetadata, type Meta, type StoryObj } from '@storybook/angular';
+import { CardHeaderDirective } from './header/card-header.directive';
+import { CardDirective } from './card.directive';
+import { CardModule } from './card.module';
+import { DuiTextModule } from '../text/text.module';
+
+
+// More on how to set up stories at: https://storybook.js.org/docs/writing-stories
+const meta: Meta<CardDirective> = {
+    title: 'Card / Card',
+    component: CardDirective,
+    tags: ['autodocs'],
+    decorators: [
+        moduleMetadata({
+            imports: [CardModule]
+        })
+    ],
+    argTypes: {
+    },
+    // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args
+    args: {},
+    render: (args) => ({
+        props: args,
+        template: `
+        <div dui-card>
+          <div dui-card-header>
+            <img dui-card-avatar alt="test" src="https://images.squarespace-cdn.com/content/v1/607f89e638219e13eee71b1e/1684821560422-SD5V37BAG28BURTLIXUQ/michael-sum-LEpfefQf4rU-unsplash.jpg"/>
+            <h1 dui-card-title>Mittens the Cat</h1>
+            <p dui-card-subtitle>Brown Tabby <span style="color: red">(F)</span></p>
+          </div>
+        </div>
+      `,
+    }) };
+
+export default meta;
+type Story = StoryObj<CardDirective>;
+
+export const Primary: Story = {
+    tags: ['!dev']
+}
