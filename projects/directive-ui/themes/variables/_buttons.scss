@@ -180,3 +180,74 @@
     background-color: var(--dui-elevated-button-bg-cancel-focused, var(--color-neutral-20));
     color: var(--dui-elevated-button-text-cancel-focused, var(--color-neutral-100));
 }
+
+.dui-text-button {
+    border: none;
+    border-radius: .75rem;
+    padding-inline: .75rem;
+    padding-block: .35rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dui-text-button.dui-text-button-primary {
+    color: var(--dui-text-button-text-primary-default, var(--color-primary-100));
+}
+.dui-text-button.dui-text-button-primary:hover {
+    color: var(--dui-text-button-text-primary-hover, var(--color-primary-80));
+    background-color: var(--dui-text-button-bg-primary-hover, var(--color-primary-20));
+}
+.dui-text-button.dui-text-button-primary:active {
+    color: var(--dui-text-button-text-primary-focused, var(--color-primary-100));
+    background-color: var(--dui-text-button-bg-primary-focused, var(--color-primary-30));
+}
+.dui-text-button.dui-text-button-secondary {
+    color: var(--dui-text-button-text-secondary-default, var(--color-secondary-100));
+}
+.dui-text-button.dui-text-button-secondary:hover {
+    color: var(--dui-text-button-text-secondary-hover, var(--color-secondary-80));
+    background-color: var(--dui-text-button-bg-secondary-hover, var(--color-secondary-20));
+}
+.dui-text-button.dui-text-button-secondary:active {
+    color: var(--dui-text-button-text-secondary-focused, var(--color-secondary-100));
+    background-color: var(--dui-text-button-bg-secondary-focused, var(--color-secondary-30));
+}
+
+.dui-text-button.dui-text-button-danger {
+    color: var(--dui-text-button-text-danger-default, var(--color-danger-100));
+}
+.dui-text-button.dui-text-button-danger:hover {
+    color: var(--dui-text-button-text-danger-hover, var(--color-danger-80));
+    background-color: var(--dui-text-button-bg-danger-hover, var(--color-danger-20));
+}
+.dui-text-button.dui-text-button-danger:active {
+    color: var(--dui-text-button-text-danger-focused, var(--color-danger-100));
+    background-color: var(--dui-text-button-bg-danger-focused, var(--color-danger-30));
+}
+
+.dui-text-button.dui-text-button-success {
+    color: var(--dui-text-button-text-success-default, var(--color-success-100));
+}
+.dui-text-button.dui-text-button-success:hover {
+    color: var(--dui-text-button-text-success-hover, var(--color-success-80));
+    background-color: var(--dui-text-button-bg-success-hover, var(--color-success-20));
+}
+.dui-text-button.dui-text-button-success:active {
+    color: var(--dui-text-button-text-success-focused, var(--color-success-100));
+    background-color: var(--dui-text-button-bg-success-focused, var(--color-success-30));
+}
+
+.dui-text-button.dui-text-button-cancel {
+    color: var(--dui-text-button-text-cancel-default, var(--color-neutral-100));
+}
+.dui-text-button.dui-text-button-cancel:hover {
+    color: var(--dui-text-button-text-cancel-hover, var(--color-neutral-80));
+    background-color: var(--dui-text-button-bg-cancel-hover, var(--color-neutral-20));
+}
+.dui-text-button.dui-text-button-cancel:active {
+    color: var(--dui-text-button-text-cancel-focused, var(--color-neutral-100));
+    background-color: var(--dui-text-button-bg-cancel-focused, var(--color-neutral-30));
+}
+
