@@ -1,6 +1,7 @@
 import { moduleMetadata, type Meta, type StoryObj } from '@storybook/angular';
 import { BadgeDirective } from './badge.directive';
 import { OutlineButtonDirective } from '../button/outline-button.directive';
+import { DuiButtonModule } from '../button/button.module';
 
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
@@ -9,7 +10,7 @@ const meta: Meta<BadgeDirective> = {
   component: BadgeDirective,
   decorators: [
     moduleMetadata({
-      imports: [ OutlineButtonDirective ]
+      imports: [ DuiButtonModule ]
     })
   ],
   tags: ['autodocs'],
